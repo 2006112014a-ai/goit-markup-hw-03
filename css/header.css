@@ -7,7 +7,9 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px;
 }
+
 
 .logo-web {
     color: #4D5AE5;
@@ -25,6 +27,8 @@
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
+    display: block;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -44,9 +48,36 @@
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    display: block;
+    padding: 24px 0;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
     color: #404BBF;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
 }

@@ -4,6 +4,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .features-text {
@@ -12,4 +13,20 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.features {
+    padding: 120px 0;
 }
