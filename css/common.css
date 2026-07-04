@@ -46,6 +46,9 @@ button {
     margin-right: auto;
 }
 
+.section {
+    padding: 120px 0;
+}
 /* Класа утиліта .sr-only для прихованого контенту */
 .sr-only {
     position: absolute;

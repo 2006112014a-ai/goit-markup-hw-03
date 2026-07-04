@@ -89,7 +89,8 @@ img {
     display: flex;
     flex-wrap: wrap;
     /* Разрешаем карточкам переноситься на второй ряд */
-    gap: 48px 24px;
+    column-gap: 24px;
+    row-gap: 48px;
     /* 48px между рядами, 24px между колонками */
 }
 
@@ -105,8 +106,7 @@ img {
 }
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 /* Задаем светло-серый фон для всей секции Team */
 .team.section {
