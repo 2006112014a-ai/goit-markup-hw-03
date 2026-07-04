@@ -39,6 +39,7 @@
 /* Скидання курсиву для адреси та стилі контактів */
 .contacts {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contacts-link {
@@ -64,7 +65,7 @@
 .page-header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
 }
 
 .header-nav {
